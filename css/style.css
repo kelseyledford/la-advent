@@ -1,0 +1,58 @@
+body {
+	background-color: #EDECDB;
+	color: white;
+	font-family: sans-serif;
+	font-size: 2em;
+}
+
+#wrapper {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.item {
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+.sm-box {
+	height: 75px;
+	width: 13%;
+	margin-right: 1%;
+	margin-bottom: 1%;
+
+}
+
+.md-box {
+	height: 100px;
+	width: 13%;
+	margin-right: 1%;
+	margin-bottom: 1%;
+
+
+}
+
+.lg-box {
+	height: 150px;
+	width: 13%;
+	margin-right: 1%;
+	margin-bottom: 1%;
+}
+
+.red-box {
+	background-color: rgb(238, 63, 64);
+}
+
+.green-box {
+	background-color: rgb(139, 173, 86);
+}
+
+.yellow-box {
+	background-color: rgb(243, 215, 58);
+}
+
+.dgreen-box {
+	background-color: rgb(72, 106, 29);
+}
