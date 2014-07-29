@@ -4,39 +4,59 @@
 	<title>LA Advent Calendar</title>
   <meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href='http://fonts.googleapis.com/css?family=Sofia' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <script src="js/modernizr-2.8.3.min.js"></script>
   <script src="js/jquery-1.7.1.min.js"></script>
+	<script src="js/bootstrap.js"></script>
 </head>
 <body>
 	<div id="wrapper">
 		<div id="container">
-		  <div class="item md-box red-box" id="day-22">22</div>
-		  <div class="item lg-box yellow-box" id="day-9">9</div>
-		  <div class="item sm-box green-box" id="day-1">1</div>
-		  <div class="item md-box dgreen-box" id="day-10">10</div>
-		  <div class="item sm-box green-box" id="day-2">2</div>
-		  <div class="item lg-box red-box" id="day-4">4</div>
-		  <div class="item lg-box yellow-box" id="day-7">7</div>
-		  <div class="item sm-box dgreen-box" id="day-21">21</div>
-		  <div class="item md-box yellow-box" id="day-18">18</div>
-		  <div class="item sm-box yellow-box" id="day-11">11</div>
-		  <div class="item lg-box red-box" id="day-15">15</div>
-		  <div class="item sm-box red-box" id="day-23">23</div>
-		  <div class="item md-box green-box" id="day-8">8</div>
-		  <div class="item md-box dgreen-box" id="day-5">5</div>
-		  <div class="item lg-box green-box" id="day-12">12</div>
-		  <div class="item md-box dgreen-box" id="day-3">3</div>
-		  <div class="item md-box dgreen-box" id="day-13">13</div>
-		  <div class="item md-box yellow-box" id="day-6">6</div>
-		  <div class="item md-box yellow-box" id="day-17">17</div>
-		  <div class="item sm-box dgreen-box" id="day-14">14</div>
-		  <div class="item md-box yellow-box" id="day-20">20</div>
-		  <div class="item sm-box green-box" id="day-16">16</div>
-		  <div class="item md-box yellow-box" id="day-24">24</div>
-		  <div class="item md-box red-box" id="day-19">19</div>
+		  <button class="item md-box red-box" id="day-22" data-toggle="modal" data-target="#modal1">22</button>
+		  <button class="item lg-box yellow-box" id="day-9">9</button>
+		  <button class="item sm-box green-box" id="day-1">1</button>
+		  <button class="item md-box dgreen-box" id="day-10">10</button>
+		  <button class="item sm-box green-box" id="day-2">2</button>
+		  <button class="item lg-box red-box" id="day-4">4</button>
+		  <button class="item lg-box yellow-box" id="day-7">7</button>
+		  <button class="item sm-box dgreen-box" id="day-21">21</button>
+		  <button class="item md-box yellow-box" id="day-18">18</button>
+		  <button class="item sm-box yellow-box" id="day-11">11</button>
+		  <button class="item lg-box red-box" id="day-15">15</button>
+		  <button class="item sm-box red-box" id="day-23">23</button>
+		  <button class="item md-box green-box" id="day-8">8</button>
+		  <button class="item md-box dgreen-box" id="day-5">5</button>
+		  <button class="item lg-box green-box" id="day-12">12</button>
+		  <button class="item md-box dgreen-box" id="day-3">3</button>
+		  <button class="item md-box dgreen-box" id="day-13">13</button>
+		  <button class="item md-box yellow-box" id="day-6">6</button>
+		  <button class="item md-box yellow-box" id="day-17">17</button>
+		  <button class="item sm-box dgreen-box" id="day-14">14</button>
+		  <button class="item md-box yellow-box" id="day-20">20</button>
+		  <button class="item sm-box green-box" id="day-16">16</button>
+		  <button class="item md-box yellow-box" id="day-24">24</button>
+		  <button class="item md-box red-box" id="day-19">19</button>
 		</div>
 	</div>
+
+	<!-- Modals -->
+	<div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+	        <h4 class="modal-title">Christmas</h4>
+	      </div>
+	      <div class="modal-body">
+	        ...
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+
   <script src="js/masonry.pkgd.min.js"></script>
 	<script src="js/script.js"></script>
 
