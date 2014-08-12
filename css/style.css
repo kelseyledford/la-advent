@@ -13,9 +13,9 @@ body {
 }
 
 .item {
-	border: 1px solid black;
+	/*border: 1px solid white;*/
 	border-radius: 5px;
-	box-shadow: 2px 2px 5px black;
+	box-shadow: 1px 1px 2px black;
 	color: white;
 }
 
@@ -54,4 +54,8 @@ body {
 
 .dgreen-box {
 	background-color: rgb(61, 93, 45);
+}
+
+img {
+	width: 200px;
 }
